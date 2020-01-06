@@ -1,5 +1,5 @@
 # FTLBox
-A Very Very Simple FTL simulator
+A Very Very Simple FTL drawing paper
 
 FTLBox is derived from DGIBox, one of projects in DGIST Class: Computer Algorithms (SE380)
 
