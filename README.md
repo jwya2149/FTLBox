@@ -17,7 +17,8 @@ FTLBox provides simple three operations:
 In this setting, each block has 128 pages and one page has only one 4-byte integer value.
 There are 151552 blocks and the target key value is 0~16777215 integers.
 Therefore, total pages can have 19,398,656 integers which are larger than key ranges.  
-Key ranges in trace files (0 ~ 16,777,215) represents the space of logical page addresses and Page ranges in FTLBox (0 ~ 19,398,656) represents the space of physical page addresses in flash storage device.  
+Key ranges in trace files (0 ~ 16,777,215) represents the space of logical page addresses.  
+Page ranges in FTLBox (0 ~ 19,398,656) represents the space of physical page addresses in flash storage device.  
 
 Out-of-place updates and GCs should be implemented depending on the characteristics of the NAND flash memory (see Lecture note: Storage-Firmware Part)
 
