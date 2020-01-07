@@ -3,7 +3,7 @@ A Very Very Simple FTL drawing paper
 
 FTLBox is derived from DGIBox, one of projects in DGIST Class: Computer Algorithms (SE380)
 
-<br/>
+
 ## Topic
 Develop an algorithms providing basic operations (write & read) that operate on a pseudo flash memory simulator, FTLBox.
 
@@ -21,12 +21,12 @@ Key ranges in trace files (0 ~ 16,777,215) represents the space of logical page 
 
 Out-of-place updates and GCs should be implemented depending on the characteristics of the NAND flash memory (see Lecture note: Storage-Firmware Part)
 
-<br/>
+
 ## Todo
 Implement your own page_read() and page_write() function.  
 You should implement your FTL so that all traces work well.  
 
-<br/>
+
 ## Current FTLBox setting
  * Number of blocks: 151552
  * Number of pages per block: 128
