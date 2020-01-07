@@ -21,9 +21,9 @@ Key ranges in trace files (0 ~ 16,777,215) represents the space of logical page 
 
 Out-of-place updates and GCs should be implemented depending on the characteristics of the NAND flash memory (see Lecture note: Storage-Firmware Part)
 
-
+<br></br>
 ## Todo
-Implement your own page_read() and page_write() function.  
+Implement your own page_read() and page_write() function with data structures for FTL.  
 You should implement your FTL so that all traces work well.  
 
 
