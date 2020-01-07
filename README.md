@@ -33,7 +33,7 @@ You should implement your FTL so that all traces work well.
  * Number of pages: 19398656 (=151552*128) (Phyiscal key space)
  * Page size: 4 Byte (integer)
  * Key range: 0 ~ 16777215 (Logical key space)  
- 
+ <br><br/>
  * Argument to main: trace file (trace1.bin, trace2.bin, trace3.bin
  * trace: A large sequence of 1-byte type('r' or 'w'), 4-byte key, 4-byte value
  * You can input your arbitrary trace  
