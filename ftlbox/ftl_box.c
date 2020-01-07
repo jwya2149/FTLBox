@@ -7,7 +7,7 @@ int32_t box_create() {
 	for (int i=0; i<NOB; i++) {
 		flash_blocks[i].min_page = -1;
 		flash_blocks[i].pages = (int32_t*)malloc(sizeof(int32_t) * PPB);
-		memset(flash_blocks[i].pages, 255, sizeof(int32_t) * PPB);
+		memset(flash_blocks[i].pages, 0xff, sizeof(int32_t) * PPB);
 	}
 }
 	
@@ -41,7 +41,7 @@ int32_t flash_page_write(int32_t b_idx, int32_t p_idx, int32_t value) {
 int32_t flash_block_erase(int32_t b_idx) {
 	range_check(b_idx, NIL, BLOCK_ERASE);
 	flash_blocks[b_idx].min_page = -1;
-	memset(flash_blocks[b_idx].pages, 255, sizeof(int32_t) * PPB);
+	memset(flash_blocks[b_idx].pages, 0xff, sizeof(int32_t) * PPB); // Initiailize with -1
 	return 1;
 }
 

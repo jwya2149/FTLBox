@@ -21,6 +21,7 @@
 typedef struct flash_block {
 	int32_t min_page;
 	int32_t *pages;
+	int32_t erase_cnt;
 } _flash_block;
 
 static inline void error_print(int8_t op_type) {

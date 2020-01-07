@@ -1,2 +1,10 @@
-all:
-	gcc -o pftl page_ftl.c ftl_box.c 
+CC = gcc
+CFLAGS = -W -g
+
+all: ftl
+
+ftl: main.c ftl_box.c
+	$(CC) $(CFLAGS) -o $@ $^
+
+clean:
+	rm ftl
