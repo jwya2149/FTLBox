@@ -26,6 +26,8 @@ Out-of-place updates and GCs should be implemented depending on the characterist
 ## Todo
 Implement your own page_read() and page_write() function with data structures for FTL.  
 You should implement your FTL so that all traces work well.  
+Trace file: https://dgistackr-my.sharepoint.com/:u:/g/personal/jwya2149_dgist_ac_kr/EbGflRN98AJBhI9vg1zgG6cBUrQCziMLlkg3BLuEIOhrgw?e=9LJ9rz  
+Download trace file and decompress to get trace1.bin, trace2.bin, trace3.bin
 
 
 ## Current FTLBox setting
